@@ -3,6 +3,11 @@ public class Test {
         int x = 34;
         int y = 43;
         int temp = null;
+
+        int temp = x;
+        int x = y;
+        int y = temp;
+
         
     }
 }
