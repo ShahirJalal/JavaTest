@@ -3,6 +3,7 @@ public class Test1 {
         String Mamak[];
 
         Mamak[] : {"Wan" , "Dharmesh" , "Bul" , "Shahir"}
-        System.in.println(Mamak);
+        System.out.println(Mamak);
+
     }
 }
