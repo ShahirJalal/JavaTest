@@ -1,8 +1,8 @@
 public class Test1 {
     public static void main(String[] args) {
-        int Mamak[];
+        String Mamak[];
 
-        Mamak[] : 
+        Mamak[] : {a, b, }
         System.in.scanner();
     }
 }
