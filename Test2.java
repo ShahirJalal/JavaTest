@@ -8,8 +8,11 @@ public class Test2 {
         String name = input.nextLine();
         System.out.println("How old are you?");
         int age = input.nextInt();
+        System.out.println("What is your favourite food? ");
+        String food = input.nextLine();
 
         System.out.println("Hello " + name);
         System.out.println("You are " + age + " years old");
+        System.out.println("You like " + food);
     }
 }
