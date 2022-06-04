@@ -2,11 +2,14 @@ import java.util.Scanner;
 
 public class Test2 {
     public static void main(String[] args) {
-        Scanner nameInput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("What is your name? ");
-        String name = nameInput.nextLine();
+        String name = input.nextLine();
+        System.out.println("How old are you?");
+        int age = input.nextInt();
 
-        System.out.println("Your name is: " + name);
+        System.out.println("Hello " + name);
+        System.out.println("You are " + age + " years old");
     }
 }
