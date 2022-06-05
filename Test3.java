@@ -3,5 +3,6 @@ public class Test3 {
         int friends = 10;
 
         friends = friends + 1;
+        System.out.println(friends);
     }
 }
