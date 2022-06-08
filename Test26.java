@@ -17,7 +17,7 @@ public class Test26 {
     static int add(int a, int b, int c) {
         System.out.println("This is overloaded method #2");
         return a + b + c;
-
+    }
     static int add(int a, int b, int c, int d) {
         System.out.println("This is overloaded method #3");
         return a + b + c + d;
