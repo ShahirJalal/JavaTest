@@ -13,5 +13,8 @@ public class Main {
         System.out.println();
         System.out.println(myCar2.make);
         System.out.println(myCar2.model);
+
+        myCar1.drive();
+        myCar1.brake();
     }
 }
