@@ -7,10 +7,13 @@ public class Pizza {
     String cheese;
     String topping;
 
+    Pizza() {
+        
+    }
     Pizza(String bread) {
 
         this.bread = bread;
-        
+
     }
     Pizza(String bread, String sauce) {
 
