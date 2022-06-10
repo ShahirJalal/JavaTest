@@ -14,6 +14,6 @@ public class Main {
         refrigerator[1] = food2;
         refrigerator[2] = food3;
 
-        System.out.println(refrigerator[0]);
+        System.out.println(refrigerator[0].name);
     }
 }

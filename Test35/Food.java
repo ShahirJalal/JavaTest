@@ -2,6 +2,8 @@ package Test35;
 
 public class Food {
     
+    String name;
+
     Food(String name) {
         this.name = name;
         
