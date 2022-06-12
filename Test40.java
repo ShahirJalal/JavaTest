@@ -1,8 +1,16 @@
 public class main {
 
 public static void main(String args[]) {
+  int x = 30;
+  int y = 40;
+  int temp;
   
-  System.out.println("Hello")
+  temp = x;
+  x = y;
+  y = temp
+  
+  System.out.println("Y: " + y);
+  System.out.println("Y: " + x);
   }
 }
 
