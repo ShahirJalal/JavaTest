@@ -10,7 +10,7 @@ public static void main(String args[]) {
   y = temp
   
   System.out.println("Y: " + y);
-  System.out.println("Y: " + x);
+  System.out.println("X: " + x);
   }
 }
 
