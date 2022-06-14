@@ -8,4 +8,8 @@ public class Person {
         this.age = age;
     }
 
+    public String toSring() {
+        return this.name + "\n" + this.age + "\n";
+    }
+
 }

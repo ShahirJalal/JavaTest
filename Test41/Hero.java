@@ -5,4 +5,8 @@ public class Hero extends Person{
         super(name, age);
         this.power = power;
     }
+
+    public String toSring() {
+        return super.toString() + this.power;
+    }
 }
