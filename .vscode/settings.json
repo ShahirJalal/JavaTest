@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Test42.java",
         "Test41",
-        "Test42.java"
+        "Test43.java/Package1"
     ]
 }
